@@ -34,34 +34,58 @@
 /* Previous Year Failure */
 .failure {
 	display: flex;
-    gap: 85px;
+	gap: 85px;
 }
 .failure-me {
-    padding: 130px 0 130px 120px;
+	padding: 130px 0 130px 120px;
 }
 .failure-text {
-    padding: 370px 210px 190px 0px;
+	padding: 370px 210px 190px 0px;
 }
 .failure-title {
 	font-weight: 700;
 	font-size: 40px;
 	color: #151414;
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 .failure-description {
 	line-height: 26px;
 	color: #444343;
-    margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 .failure-list {
-    color: #444343;
-    padding-left: 0;
+	color: #444343;
+	padding-left: 0;
 }
-.failure-list li{
-    list-style: none;
-    margin-bottom: 8px;
+.failure-list li {
+	list-style: none;
+	margin-bottom: 8px;
 }
-.failure-list li i{
-    color: #16D887;
-    padding-right: 10px;
+.failure-list li i {
+	color: #16d887;
+	padding-right: 10px;
+}
+/* My Plan Section */
+.plan-main-title {
+	text-align: center;
+	color: #151414;
+	font-weight: 700;
+	font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Plan {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px 160px;
+}
+.plan-item {
+	display: inline-block;
+	text-align: center;
+}
+.plan-image{
+    margin-bottom: 20px;
+}
+.plan-title{
+    margin-bottom: 12px;
 }
