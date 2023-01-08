@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+	font-family: 'Work Sans', sans-serif;
+}
+/* Header Section */
+.header {
+	background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header-item{
+    text-align: right;
+    padding: 160px 150px 165px 750px;
+}
+.header-title {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 65px;
+    margin-bottom: 24px;
+}
+.header-description {
+	color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.button-primary {
+	font-weight: 600;
+	font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
